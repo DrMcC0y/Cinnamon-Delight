@@ -766,7 +766,7 @@ toolbar, .inline-toolbar {
   border-image: linear-gradient(to bottom, #e8e8e8, #cacaca) 1 0 1 0; }
 
 .inline-toolbar {
-  background-color: #ededed;
+  background-color: rgba(248, 233, 239, 0.80);
   border-style: solid;
   border-color: #c7c7c7;
   border-width: 0 1px 1px;
@@ -783,7 +783,7 @@ searchbar {
 actionbar {
   padding: 6px;
   border-top: 1px solid #c7c7c7;
-  background-color: #ededed; }
+  background-color: rgba(248, 233, 239, 0.80); }
 
 headerbar,
 .titlebar:not(headerbar) {
@@ -1889,7 +1889,7 @@ treeview.check {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked.png"), url("assets/checkbox-unchecked@2.png")); }
 
 .osd check {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.png"), url("assets/checkbox-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked.png"), url("assets/checkbox-unchecked@2.png")); }
 
 .view check:selected, iconview check:selected,
 treeview.check:selected,
@@ -1903,7 +1903,7 @@ treeview.check:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive.png"), url("assets/checkbox-unchecked-insensitive@2.png")); }
 
 .osd check:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-dark.png"), url("assets/checkbox-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive.png"), url("assets/checkbox-unchecked-insensitive@2.png")); }
 
 .view check:disabled:selected, iconview check:disabled:selected,
 treeview.check:disabled:selected,
@@ -1917,7 +1917,7 @@ treeview.check:indeterminate {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.png"), url("assets/checkbox-mixed@2.png")); }
 
 .osd check:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-dark.png"), url("assets/checkbox-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed.png"), url("assets/checkbox-mixed@2.png")); }
 
 .view check:indeterminate:selected, iconview check:indeterminate:selected,
 treeview.check:indeterminate:selected,
@@ -1931,7 +1931,7 @@ treeview.check:indeterminate:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive.png"), url("assets/checkbox-mixed-insensitive@2.png")); }
 
 .osd check:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-dark.png"), url("assets/checkbox-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive.png"), url("assets/checkbox-mixed-insensitive@2.png")); }
 
 .view check:indeterminate:disabled:selected, iconview check:indeterminate:disabled:selected,
 treeview.check:indeterminate:disabled:selected,
@@ -1945,7 +1945,7 @@ treeview.check:checked {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
 .osd check:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-dark.png"), url("assets/checkbox-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked.png"), url("assets/checkbox-checked@2.png")); }
 
 .view check:checked:selected, iconview check:checked:selected,
 treeview.check:checked:selected,
@@ -1959,7 +1959,7 @@ treeview.check:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive.png"), url("assets/checkbox-checked-insensitive@2.png")); }
 
 .osd check:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-dark.png"), url("assets/checkbox-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive.png"), url("assets/checkbox-checked-insensitive@2.png")); }
 
 .view check:checked:disabled:selected, iconview check:checked:disabled:selected,
 treeview.check:checked:disabled:selected,
@@ -1973,7 +1973,7 @@ treeview.radio {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked.png"), url("assets/radio-unchecked@2.png")); }
 
 .osd radio {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-dark.png"), url("assets/radio-unchecked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked.png"), url("assets/radio-unchecked@2.png")); }
 
 .view radio:selected, iconview radio:selected,
 treeview.radio:selected,
@@ -1987,7 +1987,7 @@ treeview.radio:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive.png"), url("assets/radio-unchecked-insensitive@2.png")); }
 
 .osd radio:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive-dark.png"), url("assets/radio-unchecked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-unchecked-insensitive.png"), url("assets/radio-unchecked-insensitive@2.png")); }
 
 .view radio:disabled:selected, iconview radio:disabled:selected,
 treeview.radio:disabled:selected,
@@ -2001,7 +2001,7 @@ treeview.radio:indeterminate {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.png"), url("assets/radio-mixed@2.png")); }
 
 .osd radio:indeterminate {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-dark.png"), url("assets/radio-mixed-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed.png"), url("assets/radio-mixed@2.png")); }
 
 .view radio:indeterminate:selected, iconview radio:indeterminate:selected,
 treeview.radio:indeterminate:selected,
@@ -2015,7 +2015,7 @@ treeview.radio:indeterminate:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive.png"), url("assets/radio-mixed-insensitive@2.png")); }
 
 .osd radio:indeterminate:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-dark.png"), url("assets/radio-mixed-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive.png"), url("assets/radio-mixed-insensitive@2.png")); }
 
 .view radio:indeterminate:disabled:selected, iconview radio:indeterminate:disabled:selected,
 treeview.radio:indeterminate:disabled:selected,
@@ -2029,7 +2029,7 @@ treeview.radio:checked {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
 .osd radio:checked {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-dark.png"), url("assets/radio-checked-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked.png"), url("assets/radio-checked@2.png")); }
 
 .view radio:checked:selected, iconview radio:checked:selected,
 treeview.radio:checked:selected,
@@ -2043,7 +2043,7 @@ treeview.radio:checked:disabled {
   -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive.png"), url("assets/radio-checked-insensitive@2.png")); }
 
 .osd radio:checked:disabled {
-  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive-dark.png"), url("assets/radio-checked-insensitive-dark@2.png")); }
+  -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-insensitive.png"), url("assets/radio-checked-insensitive@2.png")); }
 
 .view radio:checked:disabled:selected, iconview radio:checked:disabled:selected,
 treeview.radio:checked:disabled:selected,
@@ -3211,7 +3211,7 @@ NautilusQueryEditor .search-bar.toolbar {
     background-color: rgba(31, 158, 222, 0.8);
     border-color: rgba(25, 126, 177, 0.8); }
   .disk-space-display.free {
-    background-color: #ededed;
+    background-color: rgba(248, 233, 239, 0.80);
     border-color: #d4d4d4; }
 
 NautilusListView .view, NautilusListView iconview {
