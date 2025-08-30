@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Cinnamon-Ice-Cream
+Name=Cinnamon-Delight
 Comment=Lovely light flat theme with transparent elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Cinnamon-Ice-Cream
+GtkTheme=Cinnamon-Delight
 MetacityTheme=Mint-Y
-IconTheme=Cinnamon-Ice-Cream-Icons
+IconTheme=Cinnamon-Delight-Icons
 CursorTheme=XCursor-Pro-Light
 ButtonLayout=menu:minimize,maximize,close
