@@ -299,7 +299,7 @@ button {
     color: @MAIN_FONT_COLOR;
     outline-color: rgba(0, 0, 0, 0.17);
     border-color: @gray_light;
-    background-color: @white_bg_2;
+    background-color: @primary_button_hover;
     -gtk-icon-effect: highlight; }
   button:active, button:checked {
     color: @MAIN_FONT_COLOR;
