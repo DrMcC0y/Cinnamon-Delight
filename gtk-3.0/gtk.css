@@ -2547,7 +2547,7 @@ filechooser .search-bar {
   background-color: @theme_main_bg_1; }
 
 filechooser actionbar {
-  background-color: @gray_light_bg; }
+  background-color: @background; }
 
 filechooserbutton:drop(active) {
   box-shadow: none;
