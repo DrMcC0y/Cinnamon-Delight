@@ -814,7 +814,7 @@ searchbar {
 actionbar {
   padding: 6px;
   border-top: 1px solid @gray_light;
-  background-color: rgba(248, 233, 239, 0.80); }
+  background-color: @background; }
 
 headerbar,
 .titlebar:not(headerbar) {
