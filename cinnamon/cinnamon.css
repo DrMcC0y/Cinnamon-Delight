@@ -2202,7 +2202,7 @@ StScrollBar {
   padding: 0; }
 
 .appmenu-category-button:hover {
-  background-color: #b0b0b8; }
+  background-color: rgba(245, 235, 239, 0.45); }
 
 .appmenu-category-button-selected {
   background-color: rgba(245, 235, 239, 0.45); }
