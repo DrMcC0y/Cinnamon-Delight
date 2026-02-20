@@ -232,7 +232,6 @@ StScrollBar {
   border: 1px solid #beafb6;
   border-radius: 3px;
   background-color: rgba(217, 203, 215, 0.93); }
-  /* background-color: rgba(212, 198, 210, 0.93); } */
 
   .menu.top {
     border-radius: 0 0 3px 3px; }
